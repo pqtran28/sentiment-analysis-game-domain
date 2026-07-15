@@ -1,5 +1,39 @@
-logs
-__pycache__
-checkpoint
+﻿# Environment files
 .env
-venv
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Generated outputs and ML artifacts
+output/
+artifacts/
+checkpoint/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
