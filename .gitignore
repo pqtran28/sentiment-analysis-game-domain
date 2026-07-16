@@ -23,7 +23,6 @@ logs/
 
 # Generated outputs and ML artifacts
 output/
-artifacts/
 checkpoint/
 checkpoints/
 *.ckpt
